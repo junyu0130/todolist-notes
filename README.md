@@ -6,7 +6,7 @@
 - Contents:
   - Document Report (studentID.docx)
   - Codes (please name the folder “code”)
-- **Please Zip the report and codes (studentID.zip) and upload it to digital learning platform before deadline.**
+- **Please Zip the report and codes (studentID.zip) and upload it to digital learning platform before deadline**
 
 ---
 
