@@ -5,16 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <title>Notes</title>
   </head>
   <body>
     <div class="notes" id="app">
       <!-- javascript  -->
-      <!-- <div class="notes_sidebar">
+      <div class="notes_sidebar">
         <button class="notes_add" type="button">新增筆記</button>
         <div class="notes_list">
           <div class="notes_list-item notes_list-item--selected">
-            <div class="notes_small-title">Lecture Notes</div>
+            <div class="notes_small-title">Selected Notes</div>
+            <div class="notes_small-body">First line of this note</div>
+            <div class="notes_small-updated">Time shows here</div>
+          </div>
+          <div class="notes_list-item notes_list-item--completed">
+            <div class="notes_small-title">Completed Notes</div>
+            <div class="notes_small-body">First line of this note</div>
+            <div class="notes_small-updated">Time shows here</div>
+          </div>
+          <div class="notes_list-item">
+            <div class="notes_small-title">Normal Notes1</div>
+            <div class="notes_small-body">First line of this note</div>
+            <div class="notes_small-updated">Time shows here</div>
+          </div>
+          <div class="notes_list-item notes_list-item--deleted">
+            <div class="notes_small-title">Deleted Notes</div>
+            <div class="notes_small-body">First line of this note</div>
+            <div class="notes_small-updated">Time shows here</div>
+          </div>
+          <div class="notes_list-item">
+            <div class="notes_small-title">Normal Notes2</div>
             <div class="notes_small-body">First line of this note</div>
             <div class="notes_small-updated">Time shows here</div>
           </div>
@@ -22,9 +46,14 @@
       </div>
       <div class="notes_preview">
         <input type="text" class="notes_title" placeholder="Enter the title" />
-        <textarea class="notes_body">Notes here</textarea>
-      </div> -->
+        <span class="notes_status-bar">
+          <a href="#"><i class="bi bi-check-square"></i></a>
+          <a href="#"><i class="bi bi-archive"></i></a>
+          <a href="#"><i class="bi bi-trash"></i></a>
+        </span>
+        <textarea class="notes_body" placeholder="Enter the note"></textarea>
+      </div>
     </div>
-    <script src="./js/main.js" type="module"></script>
+    <!-- <script src="./js/main.js" type="module"></script> -->
   </body>
 </html>
