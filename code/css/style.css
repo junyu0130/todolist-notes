@@ -132,7 +132,8 @@ body {
   color: #37bf50;
 }
 
-.notes_status-bar .bi-archive {
+.notes_status-bar .bi-inbox,
+.notes_status-bar .bi-inbox-fill {
   color: #3855ff;
 }
 
