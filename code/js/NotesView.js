@@ -42,6 +42,10 @@ export default class NotesView {
       this.onNoteStatus("completed");
     });
 
+    btnNoteArchived.addEventListener("click", () => {
+      this.onNoteStatus("archived");
+    });
+
     [(inpTitle, inpBody)].forEach((inputField) => {
       inputField.addEventListener("blur", () => {
         const updatedTile = inpTitle.value.trim();
@@ -76,25 +80,6 @@ export default class NotesView {
       </div>
     </div>
     `;
-  }
-
-  updateNoteStatus(note, status) {
-    switch (status) {
-      case "completed":
-        if (note.isCompleted) {
-          this.root
-            .querySelector(`.notes_list-item[data-note-id="${note.id}"]`)
-            .classList.add("notes_list-item--completed");
-        } else {
-          this.root
-            .querySelector(`.notes_list-item[data-note-id="${note.id}"]`)
-            .classList.remove("notes_list-item--completed");
-        }
-        break;
-
-      default:
-        break;
-    }
   }
 
   updateNoteList(notes) {

@@ -43,6 +43,9 @@ export default class NotesAPI {
       case "completed":
         note.isCompleted = !note.isCompleted;
         break;
+      case "archived":
+        note.isArchived = !note.isArchived;
+        break;
 
       default:
         break;

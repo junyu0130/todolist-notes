@@ -70,7 +70,6 @@ export default class App {
       // user completed, archived
       onNoteStatus: (status) => {
         NotesAPI.setNoteStatus(this.activeNote, status);
-        this.view.updateNoteStatus(this.activeNote, status);
         this._refreshNotes();
       },
       // user delete
