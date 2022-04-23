@@ -8,7 +8,7 @@ export default class NotesAPI {
     });
   }
 
-  // saveNote
+  // saveNote & updateNote
   static saveNote(noteToSave) {
     // 現在 localStorage 的資料
     const notes = NotesAPI.getAllNotes();
@@ -21,6 +21,8 @@ export default class NotesAPI {
       // update
       existing.title = noteToSave.title;
       existing.body = noteToSave.body;
+      existing.isCompleted = noteToSave.isCompleted;
+      existing.isArchived = noteToSave.isArchived;
       existing.updated = new Date().toISOString();
     } else {
       // add a new one
@@ -33,6 +35,18 @@ export default class NotesAPI {
     // save new data + existing data
     localStorage.setItem("notesApp-notes", JSON.stringify(notes));
   }
-  // updateNote
   // deleteNote
+
+  // setNoteStatus
+  static setNoteStatus(note, status) {
+    switch (status) {
+      case "completed":
+        note.isCompleted = !note.isCompleted;
+        break;
+
+      default:
+        break;
+    }
+    NotesAPI.saveNote(note);
+  }
 }

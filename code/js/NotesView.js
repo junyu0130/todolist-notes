@@ -1,9 +1,13 @@
 export default class NotesView {
-  constructor(root, { onNoteSelect, onNoteAdd, onNoteEdit } = {}) {
+  constructor(
+    root,
+    { onNoteSelect, onNoteAdd, onNoteEdit, onNoteStatus } = {}
+  ) {
     this.root = root;
     this.onNoteSelect = onNoteSelect;
     this.onNoteAdd = onNoteAdd;
     this.onNoteEdit = onNoteEdit;
+    this.onNoteStatus = onNoteStatus;
 
     // show sidebar part
     this.root.innerHTML = `
@@ -13,6 +17,11 @@ export default class NotesView {
     </div>
     <div class="notes_preview">
       <input type="text" class="notes_title" placeholder="Enter the title" />
+      <span class="notes_status-bar">
+        <a href="#" note_completed><i class="bi bi-check-square"></i></a>
+        <a href="#" note_archived><i class="bi bi-inbox"></i></a>
+        <a href="#" note_deleted><i class="bi bi-trash"></i></a>
+      </span>
       <textarea class="notes_body" placeholder="Enter the note"></textarea>
     </div>
     `;
@@ -20,10 +29,17 @@ export default class NotesView {
     const btnAddNote = this.root.querySelector(".notes_add");
     const inpTitle = this.root.querySelector(".notes_title");
     const inpBody = this.root.querySelector(".notes_body");
+    const btnNoteCompleted = this.root.querySelector("[note_completed]");
+    const btnNoteArchived = this.root.querySelector("[note_archived]");
+    const btnNoteDeleted = this.root.querySelector("[note_deleted]");
 
     // if user click button -> add notes
     btnAddNote.addEventListener("click", () => {
       this.onNoteAdd();
+    });
+
+    btnNoteCompleted.addEventListener("click", () => {
+      this.onNoteStatus("completed");
     });
 
     [(inpTitle, inpBody)].forEach((inputField) => {
@@ -39,11 +55,14 @@ export default class NotesView {
     this.updateNotePreviewVisibility(false);
   }
 
-  _createListItemHTML(id, title, body, updated) {
+  _createListItemHTML(id, title, body, isCompleted, isArchived, updated) {
     const MAX_BODY_LENGTH = 60;
 
+    const completed = isCompleted ? "notes_list-item--completed" : "";
+    const archived = isArchived ? "notes_list-item--archived" : "";
+
     return `
-    <div class="notes_list-item" data-note-id=${id}>
+    <div class="notes_list-item ${completed} ${archived}" data-note-id=${id}>
       <div class="notes_small-title">${title}</div>
       <div class="notes_small-body">
         ${body.substring(0, MAX_BODY_LENGTH)}
@@ -59,6 +78,25 @@ export default class NotesView {
     `;
   }
 
+  updateNoteStatus(note, status) {
+    switch (status) {
+      case "completed":
+        if (note.isCompleted) {
+          this.root
+            .querySelector(`.notes_list-item[data-note-id="${note.id}"]`)
+            .classList.add("notes_list-item--completed");
+        } else {
+          this.root
+            .querySelector(`.notes_list-item[data-note-id="${note.id}"]`)
+            .classList.remove("notes_list-item--completed");
+        }
+        break;
+
+      default:
+        break;
+    }
+  }
+
   updateNoteList(notes) {
     const notesListContainer = this.root.querySelector(".notes_list");
 
@@ -70,6 +108,8 @@ export default class NotesView {
         note.id,
         note.title,
         note.body,
+        note.isCompleted,
+        note.isArchived,
         new Date(note.updated)
       );
 

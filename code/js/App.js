@@ -47,6 +47,8 @@ export default class App {
         const newNote = {
           title: "New Note",
           body: "Take a new note...",
+          isCompleted: false,
+          isArchived: false,
         };
 
         NotesAPI.saveNote(newNote);
@@ -58,9 +60,17 @@ export default class App {
       onNoteEdit: (title, body) => {
         NotesAPI.saveNote({
           id: this.activeNote.id,
+          isCompleted: this.activeNote.isCompleted,
+          isArchived: this.activeNote.isArchived,
           title,
           body,
         });
+        this._refreshNotes();
+      },
+      // user completed, archived
+      onNoteStatus: (status) => {
+        NotesAPI.setNoteStatus(this.activeNote, status);
+        this.view.updateNoteStatus(this.activeNote, status);
         this._refreshNotes();
       },
       // user delete
