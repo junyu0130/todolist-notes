@@ -123,6 +123,36 @@ export default class NotesView {
     this.root
       .querySelector(`.notes_list-item[data-note-id="${note.id}"]`)
       .classList.add("notes_list-item--selected");
+
+    if (note.isCompleted) {
+      this.root
+        .querySelector("[note_completed] .bi")
+        .classList.remove("bi-check-square");
+      this.root
+        .querySelector("[note_completed] .bi")
+        .classList.add("bi-check-square-fill");
+    } else {
+      this.root
+        .querySelector("[note_completed] .bi")
+        .classList.remove("bi-check-square-fill");
+      this.root
+        .querySelector("[note_completed] .bi")
+        .classList.add("bi-check-square");
+    }
+
+    if (note.isArchived) {
+      this.root
+        .querySelector("[note_archived] .bi")
+        .classList.remove("bi-inbox");
+      this.root
+        .querySelector("[note_archived] .bi")
+        .classList.add("bi-inbox-fill");
+    } else {
+      this.root
+        .querySelector("[note_archived] .bi")
+        .classList.remove("bi-inbox-fill");
+      this.root.querySelector("[note_archived] .bi").classList.add("bi-inbox");
+    }
   }
 
   updateNotePreviewVisibility(visible) {

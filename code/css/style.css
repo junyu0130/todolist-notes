@@ -54,6 +54,7 @@ body {
 
 .notes_list-item--archived {
   background-color: #4d62ff;
+  font-style: italic;
 }
 
 .notes_list-item--completed {
