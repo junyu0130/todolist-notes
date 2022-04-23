@@ -52,14 +52,13 @@ body {
   font-weight: bold;
 }
 
-.notes_list-item--completed {
-  text-decoration: line-through;
-  background-color: rgba(0, 0, 0, 5%);
-  color: #999999;
+.notes_list-item--archived {
+  background-color: #4d62ff;
 }
 
-.notes_list-item--deleted {
-  background-color: #f95940;
+.notes_list-item--completed {
+  text-decoration: line-through;
+  background-color: #37bf50;
 }
 
 .notes_small-title,
@@ -134,7 +133,7 @@ body {
 
 .notes_status-bar .bi-inbox,
 .notes_status-bar .bi-inbox-fill {
-  color: #3855ff;
+  color: #4d62ff;
 }
 
 .notes_status-bar .bi-trash {
