@@ -35,7 +35,18 @@ export default class NotesAPI {
     // save new data + existing data
     localStorage.setItem("notesApp-notes", JSON.stringify(notes));
   }
+
   // deleteNote
+  static deleteNote(noteToDel) {
+    if (confirm("確定要刪除這個項目嗎?\n將會從本機儲存空間永久刪除。")) {
+      const notes = NotesAPI.getAllNotes();
+      const delIndex = notes.findIndex((item) => item.id == noteToDel.id);
+
+      notes.splice(delIndex, 1);
+
+      localStorage.setItem("notesApp-notes", JSON.stringify(notes));
+    }
+  }
 
   // setNoteStatus
   static setNoteStatus(note, status) {
@@ -43,6 +54,7 @@ export default class NotesAPI {
       case "completed":
         note.isCompleted = !note.isCompleted;
         break;
+
       case "archived":
         note.isArchived = !note.isArchived;
         break;

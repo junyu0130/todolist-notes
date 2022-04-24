@@ -73,6 +73,10 @@ export default class App {
         this._refreshNotes();
       },
       // user delete
+      onNoteDelete: () => {
+        NotesAPI.deleteNote(this.activeNote);
+        this._refreshNotes();
+      },
     };
   }
 }

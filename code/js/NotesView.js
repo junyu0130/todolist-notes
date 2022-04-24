@@ -1,13 +1,14 @@
 export default class NotesView {
   constructor(
     root,
-    { onNoteSelect, onNoteAdd, onNoteEdit, onNoteStatus } = {}
+    { onNoteSelect, onNoteAdd, onNoteEdit, onNoteStatus, onNoteDelete } = {}
   ) {
     this.root = root;
     this.onNoteSelect = onNoteSelect;
     this.onNoteAdd = onNoteAdd;
     this.onNoteEdit = onNoteEdit;
     this.onNoteStatus = onNoteStatus;
+    this.onNoteDelete = onNoteDelete;
 
     // show sidebar part
     this.root.innerHTML = `
@@ -44,6 +45,10 @@ export default class NotesView {
 
     btnNoteArchived.addEventListener("click", () => {
       this.onNoteStatus("archived");
+    });
+
+    btnNoteDeleted.addEventListener("click", () => {
+      this.onNoteDelete();
     });
 
     [(inpTitle, inpBody)].forEach((inputField) => {
