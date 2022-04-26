@@ -51,7 +51,7 @@ export default class NotesView {
       this.onNoteDelete();
     });
 
-    [(inpTitle, inpBody)].forEach((inputField) => {
+    [inpTitle, inpBody].forEach((inputField) => {
       inputField.addEventListener("blur", () => {
         const updatedTile = inpTitle.value.trim();
         const updatedBody = inpBody.value.trim();
