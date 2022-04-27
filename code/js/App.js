@@ -1,9 +1,12 @@
 import NotesAPI from "./NotesAPI.js";
 import NotesView from "./NotesView.js";
 
+/**
+ * Tha application for the web.
+ */
 export default class App {
   /**
-   * The app for the web.
+   * Create an application.
    * @param {HTMLElement} root The root from html.
    */
   constructor(root) {
@@ -51,13 +54,13 @@ export default class App {
   }
 
   /**
-   * Return the app event handlers.
+   * Return the application event handlers.
    */
   _handlers() {
     return {
       /**
        * User pick which notes.
-       * @param {Number} noteID
+       * @param {Number} noteID The ID number of the note.
        */
       onNoteSelect: (noteID) => {
         const selectNote = this.notes.find((note) => note.id == noteID);

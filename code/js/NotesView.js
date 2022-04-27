@@ -1,6 +1,9 @@
+/**
+ * The view of the notes app.
+ */
 export default class NotesView {
   /**
-   * The view of the notebook app.
+   * Create the note view controls.
    * @param {HTMLElement} root The root form html.
    * @param {*} handler
    */
@@ -74,10 +77,10 @@ export default class NotesView {
    * @param {Number} id Note's id.
    * @param {String} title Title of the note.
    * @param {String} body Contents of the note.
-   * @param {Boolean} isCompleted
-   * @param {Boolean} isArchived
+   * @param {Boolean} isCompleted The Notes is completed or not.
+   * @param {Boolean} isArchived The Notes is archived or not.
    * @param {Date} updated Notes update time.
-   * @returns Notes sidebar with html for list items.
+   * @returns {String} The list items in the notes sidebar of html.
    */
   _createListItemHTML(id, title, body, isCompleted, isArchived, updated) {
     const MAX_BODY_LENGTH = 60;
@@ -183,8 +186,8 @@ export default class NotesView {
   }
 
   /**
-   * Set whether the preview is visible or not.
-   * @param {Boolean} visible
+   * Set the preview is visible or not.
+   * @param {Boolean} visible The notes preview is visible or not.
    */
   updateNotePreviewVisibility(visible) {
     this.root.querySelector(".notes_preview").style.visibility = visible
