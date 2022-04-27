@@ -1,5 +1,11 @@
+/**
+ * Used to control the static class of notes.
+ */
 export default class NotesAPI {
-  // getAllNotes
+  /**
+   * Get all notes from localStorage.
+   * @returns Notes array sorted by edit time
+   */
   static getAllNotes() {
     const notes = JSON.parse(localStorage.getItem("notesApp-notes") || "[]");
 
@@ -8,7 +14,11 @@ export default class NotesAPI {
     });
   }
 
-  // saveNote & updateNote
+  /**
+   * Save the notes,
+   * or edits the note, if they already exist.
+   * @param {Note} noteToSave
+   */
   static saveNote(noteToSave) {
     // 現在 localStorage 的資料
     const notes = NotesAPI.getAllNotes();
@@ -36,7 +46,10 @@ export default class NotesAPI {
     localStorage.setItem("notesApp-notes", JSON.stringify(notes));
   }
 
-  // deleteNote
+  /**
+   * Permanently delete notes from localStorage.
+   * @param {Note} noteToDel
+   */
   static deleteNote(noteToDel) {
     if (confirm("確定要刪除這個項目嗎?\n將會從本機儲存空間永久刪除。")) {
       const notes = NotesAPI.getAllNotes();
@@ -48,7 +61,11 @@ export default class NotesAPI {
     }
   }
 
-  // setNoteStatus
+  /**
+   * Switching the status of notes according to `status`.
+   * @param {Note} note
+   * @param {String} status
+   */
   static setNoteStatus(note, status) {
     switch (status) {
       case "completed":

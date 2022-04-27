@@ -1,4 +1,9 @@
 export default class NotesView {
+  /**
+   * The view of the notebook app.
+   * @param {HTMLElement} root The root form html.
+   * @param {*} handler
+   */
   constructor(
     root,
     { onNoteSelect, onNoteAdd, onNoteEdit, onNoteStatus, onNoteDelete } = {}
@@ -64,6 +69,16 @@ export default class NotesView {
     this.updateNotePreviewVisibility(false);
   }
 
+  /**
+   * Create list item for sidebar.
+   * @param {Number} id Note's id.
+   * @param {String} title Title of the note.
+   * @param {String} body Contents of the note.
+   * @param {Boolean} isCompleted
+   * @param {Boolean} isArchived
+   * @param {Date} updated Notes update time.
+   * @returns Notes sidebar with html for list items.
+   */
   _createListItemHTML(id, title, body, isCompleted, isArchived, updated) {
     const MAX_BODY_LENGTH = 60;
 
@@ -87,6 +102,10 @@ export default class NotesView {
     `;
   }
 
+  /**
+   * Update the notes app's sidebar and add a event listener to each note.
+   * @param {Array<Note>} notes All notes.
+   */
   updateNoteList(notes) {
     const notesListContainer = this.root.querySelector(".notes_list");
 
@@ -116,7 +135,10 @@ export default class NotesView {
       });
   }
 
-  // user mouse click -> picked notes will be gray
+  /**
+   * Set preview and set notes to be selected in the sidebar.
+   * @param {Note} note User clicked notes.
+   */
   updateActiveNote(note) {
     this.root.querySelector(".notes_title").value = note.title;
     this.root.querySelector(".notes_body").value = note.body;
@@ -160,6 +182,10 @@ export default class NotesView {
     }
   }
 
+  /**
+   * Set whether the preview is visible or not.
+   * @param {Boolean} visible
+   */
   updateNotePreviewVisibility(visible) {
     this.root.querySelector(".notes_preview").style.visibility = visible
       ? "visible"
