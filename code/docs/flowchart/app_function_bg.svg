@@ -1,0 +1,228 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 593 957" width="593" height="957">
+	<title>app_function-svg</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #80cbc4;stroke: #444444 } 
+		.t1 { font-size: 13px;fill: #222222;font-family: "monospace" } 
+		.s2 { fill: #a5d6a7;stroke: #444444 } 
+		.s3 { fill: #90caf9;stroke: #444444 } 
+		.s4 { fill: #c5e1a5;stroke: #444444 } 
+		.s5 { fill: #ce93d8;stroke: #444444 } 
+		.s6 { fill: none;stroke: #444444 } 
+		.s7 { fill: #333333 } 
+	</style>
+	<rect width="593" height="957" id="顏色填充 1" style="fill: #f2f2f2"/>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m50 9h128v30h-128z"/>
+		<path id="Layer" class="s0" d="m60 9v30"/>
+		<path id="Layer" class="s0" d="m168 9v30"/>
+		<text id="class App " style="transform: matrix(1,0,0,1,75,29)" >
+			<tspan x="0" y="0" class="t1">class App 
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m87 57.5h182.6v30h-182.6z"/>
+		<path id="Layer" class="s2" d="m97 57.5v30"/>
+		<path id="Layer" class="s2" d="m259.6 57.5v30"/>
+		<text id="constructor(root)" style="transform: matrix(1,0,0,1,112,77.5)" >
+			<tspan x="0" y="0" class="t1">constructor(root)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="106" width="147" height="30" rx="3"></rect>
+		<text id="this.notes = []" style="transform: matrix(1,0,0,1,139,126)" >
+			<tspan x="0" y="0" class="t1">this.notes = []
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="154.5" width="201.6" height="30" rx="3"></rect>
+		<text id="this.activeNote = null" style="transform: matrix(1,0,0,1,139,174.5)" >
+			<tspan x="0" y="0" class="t1">this.activeNote = null
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="203" width="381" height="30" rx="3"></rect>
+		<text id="this.view = NotesView(root, this._handlers())" style="transform: matrix(1,0,0,1,139,223)" >
+			<tspan x="0" y="0" class="t1">this.view = NotesView(root, this._handlers())
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="251.5" width="186" height="30" rx="2"></rect>
+		<text id="this._refreshNotes()" style="transform: matrix(1,0,0,1,139,271.5)" >
+			<tspan x="0" y="0" class="t1">this._refreshNotes()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m87 315h167v30h-167z"/>
+		<path id="Layer" class="s2" d="m97 315v30"/>
+		<path id="Layer" class="s2" d="m244 315v30"/>
+		<text id="_refreshNotes()" style="transform: matrix(1,0,0,1,112,335)" >
+			<tspan x="0" y="0" class="t1">_refreshNotes()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="363.5" width="310.8" height="30" rx="3"></rect>
+		<text id="const notes = NotesAPI.getAllNotes()" style="transform: matrix(1,0,0,1,139,383.5)" >
+			<tspan x="0" y="0" class="t1">const notes = NotesAPI.getAllNotes()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="412" width="186" height="30" rx="2"></rect>
+		<text id="this._setNote(notes)" style="transform: matrix(1,0,0,1,139,432)" >
+			<tspan x="0" y="0" class="t1">this._setNote(notes)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s5" x="154" y="475.5" width="200.4" height="30" rx="3"></rect>
+		<path id="Layer" class="s5" d="m124 490.5l30-30 30 30-30 30z"/>
+		<text id="(notes.length &gt; 0)" style="transform: matrix(1,0,0,1,199,495.5)" >
+			<tspan x="0" y="0" class="t1">(notes.length &gt; 0)
+</tspan>
+		</text>
+		<text id="if" style="transform: matrix(1,0,0,1,146.2,495.5)" >
+			<tspan x="0" y="0" class="t1">if
+</tspan>
+		</text>
+		<text id="+" style="transform: matrix(1,0,0,1,161.8,522.45)" >
+			<tspan x="0" y="0" class="t1">+
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="174" y="530.5" width="256.2" height="30" rx="2"></rect>
+		<text id="this._setActiveNote(notes[0])" style="transform: matrix(1,0,0,1,189,550.5)" >
+			<tspan x="0" y="0" class="t1">this._setActiveNote(notes[0])
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m87 595.5h167v30h-167z"/>
+		<path id="Layer" class="s2" d="m97 595.5v30"/>
+		<path id="Layer" class="s2" d="m244 595.5v30"/>
+		<text id="_setNote(notes)" style="transform: matrix(1,0,0,1,112,615.5)" >
+			<tspan x="0" y="0" class="t1">_setNote(notes)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="644" width="170.4" height="30" rx="3"></rect>
+		<text id="this.notes = notes" style="transform: matrix(1,0,0,1,139,664)" >
+			<tspan x="0" y="0" class="t1">this.notes = notes
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="692.5" width="271.8" height="30" rx="2"></rect>
+		<text id="this.view.updateNoteList(notes)" style="transform: matrix(1,0,0,1,139,712.5)" >
+			<tspan x="0" y="0" class="t1">this.view.updateNoteList(notes)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="741" width="443.4" height="30" rx="2"></rect>
+		<text id="this.view.updateNotePreviewVisibility(notes.length..." style="transform: matrix(1,0,0,1,139,761)" >
+			<tspan x="0" y="0" class="t1">this.view.updateNotePreviewVisibility(notes.length...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m87 804.5h206v30h-206z"/>
+		<path id="Layer" class="s2" d="m97 804.5v30"/>
+		<path id="Layer" class="s2" d="m283 804.5v30"/>
+		<text id="_setActiveNote(note)" style="transform: matrix(1,0,0,1,112,824.5)" >
+			<tspan x="0" y="0" class="t1">_setActiveNote(note)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="853" width="201.6" height="30" rx="3"></rect>
+		<text id="this.activeNote = note" style="transform: matrix(1,0,0,1,139,873)" >
+			<tspan x="0" y="0" class="t1">this.activeNote = note
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="901.5" width="279.6" height="30" rx="2"></rect>
+		<text id="this.view.updateActiveNote(note)" style="transform: matrix(1,0,0,1,139,921.5)" >
+			<tspan x="0" y="0" class="t1">this.view.updateActiveNote(note)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m79 72.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m79 69.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 121h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m116 118l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 169.5h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s7" d="m116 166.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 218h-6.5q-4 0-4-4v-126.5"/>
+		<path id="Layer" class="s7" d="m116 215l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 266.5h-6.5q-4 0-4-4v-175"/>
+		<path id="Layer" class="s7" d="m116 263.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m79 330h-6.5q-4 0-4-4v-287"/>
+		<path id="Layer" class="s7" d="m79 327l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 378.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m116 375.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 427h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s7" d="m116 424l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 490.5h-6.5q-4 0-4-4v-141.5"/>
+		<path id="Layer" class="s7" d="m116 487.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 545.5h-8q-4 0-4-4v-21"/>
+		<path id="Layer" class="s7" d="m166 542.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m79 610.5h-6.5q-4 0-4-4v-567.5"/>
+		<path id="Layer" class="s7" d="m79 607.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 659h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m116 656l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 707.5h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s7" d="m116 704.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 756h-6.5q-4 0-4-4v-126.5"/>
+		<path id="Layer" class="s7" d="m116 753l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m79 819.5h-6.5q-4 0-4-4v-776.5"/>
+		<path id="Layer" class="s7" d="m79 816.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 868h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m116 865l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 916.5h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s7" d="m116 913.5l8 3-8 3z"/>
+	</g>
+</svg>

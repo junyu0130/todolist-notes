@@ -1,0 +1,634 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1053" height="2114" shape-rendering="optimizeSpeed">
+    <g>
+        <rect x="50" y="80" width="167" height="30" style="fill:#80cbc4; stroke:#444; stroke-width:1"></rect>
+        <line x1="60" y1="80" x2="60" y2="110" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+        <line x1="207" y1="80" x2="207" y2="110" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+        <title>class NotesAPI </title>
+        <text x="75" y="100" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="75" y="100">class NotesAPI </tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="87" y="128.5" width="151.39999999999998" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="97" y1="128.5" x2="97" y2="158.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="228.39999999999998" y1="128.5" x2="228.39999999999998" y2="158.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>getAllNotes()</title>
+        <text x="112" y="148.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="112" y="148.5">getAllNotes()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="177" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const notes = JSON.parse(localStorage.getItem("notesApp-notes") || "[]")</title>
+        <text x="139" y="197" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="197">const notes = JSON.parse(localStorage.getItem("not...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="225.5" width="435.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <line x1="559.5999999999999" y1="235.5" x2="564.5999999999999" y2="235.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="559.5999999999999" y1="245.5" x2="564.5999999999999" y2="245.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <path d="M564.5999999999999, 229.5 L580.5999999999999, 240.5 L564.5999999999999, 251.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+        <title>return notes.sort((a, b) =&gt; {
+  return new Date(a.updated) &gt; new Date(b.updated) ? -1 : 1;
+})</title>
+        <text x="139" y="245.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="245.5">return notes.sort((a, b) =&gt; {
+  return new Date(a....</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="161" y="274" width="120.2" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="171" y1="274" x2="171" y2="304" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="271.2" y1="274" x2="271.2" y2="304" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>(a, b) =&gt;</title>
+        <text x="186" y="294" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="186" y="294">(a, b) =&gt;</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="198" y="322.5" width="76.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <line x1="274.8" y1="332.5" x2="279.8" y2="332.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="274.8" y1="342.5" x2="279.8" y2="342.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <path d="M279.8, 326.5 L295.8, 337.5 L279.8, 348.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+        <title>return</title>
+        <text x="213" y="342.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="213" y="342.5">return</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="265" y="386" width="395.4" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>
+        <polygon points="235,401 265,371 295,401 265,431" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+        <title>(new Date(a.updated) &gt; new Date(b.updated))</title>
+        <text x="310" y="406" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="310" y="406">(new Date(a.updated) &gt; new Date(b.updated))</tspan>
+        </text>
+        <text x="261.1" y="406" font-family="monospace" font-size="13" fill="#222">?</text>
+        <text x="272.8" y="432.95" font-family="monospace" font-size="13" fill="#222">+</text>
+        <text x="664.3" y="399.05" font-family="monospace" font-size="13" fill="#222">-</text>
+    </g>
+    <g>
+        <rect x="285" y="441" width="43.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>-1</title>
+        <text x="300" y="461" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="300" y="461">-1</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="720.4" y="441" width="37.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>1</title>
+        <text x="735.4" y="461" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="735.4" y="461">1</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="87" y="554.5" width="206" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="97" y1="554.5" x2="97" y2="584.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="283" y1="554.5" x2="283" y2="584.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>saveNote(noteToSave)</title>
+        <text x="112" y="574.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="112" y="574.5">saveNote(noteToSave)</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="603" width="310.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const notes = NotesAPI.getAllNotes()</title>
+        <text x="139" y="623" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="623">const notes = NotesAPI.getAllNotes()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="651.5" width="279.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const existing = notes.find(*())</title>
+        <text x="139" y="671.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="671.5">const existing = notes.find(*())</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="161" y="700" width="120.2" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="171" y1="700" x2="171" y2="730" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="271.2" y1="700" x2="271.2" y2="730" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>(note) =&gt;</title>
+        <text x="186" y="720" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="186" y="720">(note) =&gt;</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="198" y="748.5" width="271.79999999999995" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <line x1="469.79999999999995" y1="758.5" x2="474.79999999999995" y2="758.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="469.79999999999995" y1="768.5" x2="474.79999999999995" y2="768.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <path d="M474.79999999999995, 752.5 L490.79999999999995, 763.5 L474.79999999999995, 774.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+        <title>return note.id == noteToSave.id</title>
+        <text x="213" y="768.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="213" y="768.5">return note.id == noteToSave.id</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="154" y="812" width="138" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>
+        <polygon points="124,827 154,797 184,827 154,857" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+        <title>(existing)</title>
+        <text x="199" y="832" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="199" y="832">(existing)</tspan>
+        </text>
+        <text x="146.2" y="832" font-family="monospace" font-size="13" fill="#222">if</text>
+        <text x="161.8" y="858.95" font-family="monospace" font-size="13" fill="#222">+</text>
+        <text x="295.9" y="825.05" font-family="monospace" font-size="13" fill="#222">-</text>
+    </g>
+    <g>
+        <rect x="174" y="867" width="287.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>existing.title = noteToSave.title</title>
+        <text x="189" y="887" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="887">existing.title = noteToSave.title</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="174" y="915.5" width="271.79999999999995" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>existing.body = noteToSave.body</title>
+        <text x="189" y="935.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="935.5">existing.body = noteToSave.body</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="174" y="964" width="381" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>existing.isCompleted = noteToSave.isCompleted</title>
+        <text x="189" y="984" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="984">existing.isCompleted = noteToSave.isCompleted</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="174" y="1012.5" width="365.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>existing.isArchived = noteToSave.isArchived</title>
+        <text x="189" y="1032.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="1032.5">existing.isArchived = noteToSave.isArchived</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="174" y="1061" width="365.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>existing.updated = new Date().toISOString()</title>
+        <text x="189" y="1081" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="1081">existing.updated = new Date().toISOString()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="211" y="1109.5" width="108" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>new Date()</title>
+        <text x="226" y="1129.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="226" y="1129.5">new Date()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="615" y="867" width="412.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>noteToSave.id = Math.floor(Math.random() * 10000)</title>
+        <text x="630" y="887" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="630" y="887">noteToSave.id = Math.floor(Math.random() * 10000)</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="615" y="915.5" width="381" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>noteToSave.updated = new Date().toISOString()</title>
+        <text x="630" y="935.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="630" y="935.5">noteToSave.updated = new Date().toISOString()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="652" y="964" width="108" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>new Date()</title>
+        <text x="667" y="984" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="667" y="984">new Date()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="615" y="1012.5" width="201.6" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>notes.push(noteToSave)</title>
+        <text x="630" y="1032.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="630" y="1032.5">notes.push(noteToSave)</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="1159.5" width="443.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>localStorage.setItem('notesApp-notes', JSON.stringify(notes))</title>
+        <text x="139" y="1179.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="1179.5">localStorage.setItem('notesApp-notes', JSON.string...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="87" y="1223" width="213.79999999999998" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="97" y1="1223" x2="97" y2="1253" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="290.79999999999995" y1="1223" x2="290.79999999999995" y2="1253" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>deleteNote(noteToDel)</title>
+        <text x="112" y="1243" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="112" y="1243">deleteNote(noteToDel)</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="154" y="1286.5" width="559.2" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>
+        <polygon points="124,1301.5 154,1271.5 184,1301.5 154,1331.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+        <title>(confirm("確定要刪除這個項目嗎?\n將會從本機儲存空間永久刪除。"))</title>
+        <text x="199" y="1306.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="199" y="1306.5">(confirm("確定要刪除這個項目嗎?\n將會從本機儲存空間永久刪除。"))</tspan>
+        </text>
+        <text x="146.2" y="1306.5" font-family="monospace" font-size="13" fill="#222">if</text>
+        <text x="161.8" y="1333.45" font-family="monospace" font-size="13" fill="#222">+</text>
+    </g>
+    <g>
+        <rect x="174" y="1341.5" width="310.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const notes = NotesAPI.getAllNotes()</title>
+        <text x="189" y="1361.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="1361.5">const notes = NotesAPI.getAllNotes()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="174" y="1390" width="318.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const delIndex = notes.findIndex(*())</title>
+        <text x="189" y="1410" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="1410">const delIndex = notes.findIndex(*())</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="211" y="1438.5" width="120.2" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="221" y1="1438.5" x2="221" y2="1468.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="321.2" y1="1438.5" x2="321.2" y2="1468.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>(item) =&gt;</title>
+        <text x="236" y="1458.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="236" y="1458.5">(item) =&gt;</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="248" y="1487" width="264" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <line x1="512" y1="1497" x2="517" y2="1497" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="512" y1="1507" x2="517" y2="1507" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <path d="M517, 1491 L533, 1502 L517, 1513 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+        <title>return item.id == noteToDel.id</title>
+        <text x="263" y="1507" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="263" y="1507">return item.id == noteToDel.id</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="174" y="1535.5" width="225" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>notes.splice(delIndex, 1)</title>
+        <text x="189" y="1555.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="1555.5">notes.splice(delIndex, 1)</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="174" y="1584" width="443.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>localStorage.setItem('notesApp-notes', JSON.stringify(notes))</title>
+        <text x="189" y="1604" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="1604">localStorage.setItem('notesApp-notes', JSON.string...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="87" y="1649" width="260.6" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="97" y1="1649" x2="97" y2="1679" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="337.6" y1="1649" x2="337.6" y2="1679" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>setNoteStatus(note, status)</title>
+        <text x="112" y="1669" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="112" y="1669">setNoteStatus(note, status)</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="154" y="1712.5" width="177" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>
+        <polygon points="124,1727.5 154,1697.5 184,1727.5 154,1757.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+        <title>switch (status)</title>
+        <text x="199" y="1732.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="199" y="1732.5">switch (status)</tspan>
+        </text>
+        <text x="146.2" y="1732.5" font-family="monospace" font-size="13" fill="#222">if</text>
+        <text x="161.8" y="1759.45" font-family="monospace" font-size="13" fill="#222">+</text>
+    </g>
+    <g>
+        <rect x="174" y="1767.5" width="162.6" height="30" rx="2" ry="2" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>
+        <title>case "completed":</title>
+        <text x="189" y="1787.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="1787.5">case "completed":</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="211" y="1816" width="310.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>note.isCompleted = !note.isCompleted</title>
+        <text x="226" y="1836" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="226" y="1836">note.isCompleted = !note.isCompleted</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="211" y="1864.5" width="69" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <line x1="280" y1="1874.5" x2="285" y2="1874.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></line>
+        <line x1="280" y1="1884.5" x2="285" y2="1884.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></line>
+        <path d="M285, 1865.5 L301, 1879.5 L285, 1893.5 Z" fill="#ce93d8" stroke="#444" stroke-width="1"></path>
+        <title>break</title>
+        <text x="226" y="1884.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="226" y="1884.5">break</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="174" y="1913" width="154.8" height="30" rx="2" ry="2" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>
+        <title>case "archived":</title>
+        <text x="189" y="1933" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="189" y="1933">case "archived":</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="211" y="1961.5" width="295.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>note.isArchived = !note.isArchived</title>
+        <text x="226" y="1981.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="226" y="1981.5">note.isArchived = !note.isArchived</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="211" y="2010" width="69" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <line x1="280" y1="2020" x2="285" y2="2020" style="fill:#ce93d8; stroke:#444; stroke-width:1"></line>
+        <line x1="280" y1="2030" x2="285" y2="2030" style="fill:#ce93d8; stroke:#444; stroke-width:1"></line>
+        <path d="M285, 2011 L301, 2025 L285, 2039 Z" fill="#ce93d8" stroke="#444" stroke-width="1"></path>
+        <title>break</title>
+        <text x="226" y="2030" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="226" y="2030">break</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="2058.5" width="209.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>NotesAPI.saveNote(note)</title>
+        <text x="139" y="2078.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="2078.5">NotesAPI.saveNote(note)</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+        <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+        <title>Program: source module</title>
+        <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="55" y="30">Program: source module</tspan>
+        </text>
+    </g>
+    <g>
+        <path d="M25, 40 L25 91 Q25 95
+                29 95
+                L42 95 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M42, 92 L50, 95 L42, 98 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M68.5, 110 L68.5 139.5 Q68.5 143.5
+                72.5 143.5
+                L79 143.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M79, 140.5 L87, 143.5 L79, 146.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 188 Q105.5 192
+                109.5 192
+                L116 192 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 189 L124, 192 L116, 195 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 236.5 Q105.5 240.5
+                109.5 240.5
+                L116 240.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 237.5 L124, 240.5 L116, 243.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M142.5, 255.5 L142.5 285 Q142.5 289
+                146.5 289
+                L153 289 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M153, 286 L161, 289 L153, 292 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M179.5, 304 L179.5 333.5 Q179.5 337.5
+                183.5 337.5
+                L190 337.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M190, 334.5 L198, 337.5 L190, 340.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M216.5, 352.5 L216.5 397 Q216.5 401
+                220.5 401
+                L227 401 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M227, 398 L235, 401 L227, 404 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M265, 431 L265 452 Q265 456
+                269 456
+                L277 456 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M277, 453 L285, 456 L277, 459 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M265, 431 L265 500.5 Q265 504.5
+                269 504.5
+                L277 504.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M277, 501.5 L285, 504.5 L277, 507.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M660.4, 401 L696.4 401  Q700.4 401
+                700.4 405
+                L700.4 448 Q700.4 456
+                704.4 456
+                L712.4 456 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M712.4, 453 L720.4, 456 L712.4, 459 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M68.5, 110 L68.5 565.5 Q68.5 569.5
+                72.5 569.5
+                L79 569.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M79, 566.5 L87, 569.5 L79, 572.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 584.5 L105.5 614 Q105.5 618
+                109.5 618
+                L116 618 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 615 L124, 618 L116, 621 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 584.5 L105.5 662.5 Q105.5 666.5
+                109.5 666.5
+                L116 666.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 663.5 L124, 666.5 L116, 669.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M142.5, 681.5 L142.5 711 Q142.5 715
+                146.5 715
+                L161 715 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+    </g>
+    <g>
+        <path d="M179.5, 730 L179.5 759.5 Q179.5 763.5
+                183.5 763.5
+                L190 763.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M190, 760.5 L198, 763.5 L190, 766.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 584.5 L105.5 823 Q105.5 827
+                109.5 827
+                L116 827 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 824 L124, 827 L116, 830 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 857 L154 878 Q154 882
+                158 882
+                L166 882 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 879 L174, 882 L166, 885 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 857 L154 926.5 Q154 930.5
+                158 930.5
+                L166 930.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 927.5 L174, 930.5 L166, 933.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 857 L154 975 Q154 979
+                158 979
+                L166 979 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 976 L174, 979 L166, 982 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 857 L154 1023.5 Q154 1027.5
+                158 1027.5
+                L166 1027.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 1024.5 L174, 1027.5 L166, 1030.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 857 L154 1072 Q154 1076
+                158 1076
+                L166 1076 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 1073 L174, 1076 L166, 1079 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M192.5, 1091 L192.5 1120.5 Q192.5 1124.5
+                196.5 1124.5
+                L203 1124.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M203, 1121.5 L211, 1124.5 L203, 1127.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M292, 827 L591 827  Q595 827
+                595 831
+                L595 874 Q595 882
+                599 882
+                L607 882 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M607, 879 L615, 882 L607, 885 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M292, 827 L591 827  Q595 827
+                595 831
+                L595 922.5 Q595 930.5
+                599 930.5
+                L607 930.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M607, 927.5 L615, 930.5 L607, 933.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M633.5, 945.5 L633.5 975 Q633.5 979
+                637.5 979
+                L644 979 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M644, 976 L652, 979 L644, 982 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M292, 827 L591 827  Q595 827
+                595 831
+                L595 1019.5 Q595 1027.5
+                599 1027.5
+                L607 1027.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M607, 1024.5 L615, 1027.5 L607, 1030.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 584.5 L105.5 1170.5 Q105.5 1174.5
+                109.5 1174.5
+                L116 1174.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 1171.5 L124, 1174.5 L116, 1177.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M68.5, 110 L68.5 1234 Q68.5 1238
+                72.5 1238
+                L79 1238 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M79, 1235 L87, 1238 L79, 1241 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 1253 L105.5 1297.5 Q105.5 1301.5
+                109.5 1301.5
+                L116 1301.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 1298.5 L124, 1301.5 L116, 1304.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 1331.5 L154 1352.5 Q154 1356.5
+                158 1356.5
+                L166 1356.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 1353.5 L174, 1356.5 L166, 1359.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 1331.5 L154 1401 Q154 1405
+                158 1405
+                L166 1405 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 1402 L174, 1405 L166, 1408 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M192.5, 1420 L192.5 1449.5 Q192.5 1453.5
+                196.5 1453.5
+                L211 1453.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+    </g>
+    <g>
+        <path d="M229.5, 1468.5 L229.5 1498 Q229.5 1502
+                233.5 1502
+                L240 1502 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M240, 1499 L248, 1502 L240, 1505 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 1331.5 L154 1546.5 Q154 1550.5
+                158 1550.5
+                L166 1550.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 1547.5 L174, 1550.5 L166, 1553.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 1331.5 L154 1595 Q154 1599
+                158 1599
+                L166 1599 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 1596 L174, 1599 L166, 1602 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M68.5, 110 L68.5 1660 Q68.5 1664
+                72.5 1664
+                L79 1664 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M79, 1661 L87, 1664 L79, 1667 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 1679 L105.5 1723.5 Q105.5 1727.5
+                109.5 1727.5
+                L116 1727.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 1724.5 L124, 1727.5 L116, 1730.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 1757.5 L154 1778.5 Q154 1782.5
+                158 1782.5
+                L166 1782.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 1779.5 L174, 1782.5 L166, 1785.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M192.5, 1797.5 L192.5 1827 Q192.5 1831
+                196.5 1831
+                L203 1831 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M203, 1828 L211, 1831 L203, 1834 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M192.5, 1797.5 L192.5 1875.5 Q192.5 1879.5
+                196.5 1879.5
+                L203 1879.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M203, 1876.5 L211, 1879.5 L203, 1882.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M154, 1757.5 L154 1924 Q154 1928
+                158 1928
+                L166 1928 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M166, 1925 L174, 1928 L166, 1931 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M192.5, 1943 L192.5 1972.5 Q192.5 1976.5
+                196.5 1976.5
+                L203 1976.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M203, 1973.5 L211, 1976.5 L203, 1979.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M192.5, 1943 L192.5 2021 Q192.5 2025
+                196.5 2025
+                L203 2025 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M203, 2022 L211, 2025 L203, 2028 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 1679 L105.5 2069.5 Q105.5 2073.5
+                109.5 2073.5
+                L116 2073.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 2070.5 L124, 2073.5 L116, 2076.5 Z" fill="#333"></path>
+    </g>
+</svg>

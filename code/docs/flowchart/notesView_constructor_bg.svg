@@ -1,0 +1,405 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 647 1723" width="647" height="1723">
+	<title>notesView_constructor-svg</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #80cbc4;stroke: #444444 } 
+		.t1 { font-size: 13px;fill: #222222;font-family: "monospace" } 
+		.s2 { fill: #a5d6a7;stroke: #444444 } 
+		.s3 { fill: #90caf9;stroke: #444444 } 
+		.s4 { fill: #c5e1a5;stroke: #444444 } 
+		.s5 { fill: none;stroke: #444444 } 
+		.s6 { fill: #333333 } 
+	</style>
+	<rect width="647" height="1723" id="顏色填充 1" style="fill: #f2f2f2"/>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m50 19h174.8v30h-174.8z"/>
+		<path id="Layer" class="s0" d="m60 19v30"/>
+		<path id="Layer" class="s0" d="m214.8 19v30"/>
+		<text id="class NotesView " style="transform: matrix(1,0,0,1,75,39)" >
+			<tspan x="0" y="0" class="t1">class NotesView 
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m87 67.5h440v30h-440z"/>
+		<path id="Layer" class="s2" d="m97 67.5v30"/>
+		<path id="Layer" class="s2" d="m517 67.5v30"/>
+		<text id="constructor(root, {  onNoteSelec" style="transform: matrix(1,0,0,1,112,87.5)" >
+			<tspan x="0" y="0" class="t1">constructor(root, {  onNoteSelect</tspan><tspan  y="0" class="t1">,</tspan><tspan  y="0" class="t1">  onNoteAdd ...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="116" width="154.8" height="30" rx="3"></rect>
+		<text id="this.root = root" style="transform: matrix(1,0,0,1,139,136)" >
+			<tspan x="0" y="0" class="t1">this.root = root
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="164.5" width="279.6" height="30" rx="3"></rect>
+		<text id="this.onNoteSelect = onNoteSelect" style="transform: matrix(1,0,0,1,139,184.5)" >
+			<tspan x="0" y="0" class="t1">this.onNoteSelect = onNoteSelect
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="213" width="232.8" height="30" rx="3"></rect>
+		<text id="this.onNoteAdd = onNoteAdd" style="transform: matrix(1,0,0,1,139,233)" >
+			<tspan x="0" y="0" class="t1">this.onNoteAdd = onNoteAdd
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="261.5" width="248.4" height="30" rx="3"></rect>
+		<text id="this.onNoteEdit = onNoteEdit" style="transform: matrix(1,0,0,1,139,281.5)" >
+			<tspan x="0" y="0" class="t1">this.onNoteEdit = onNoteEdit
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="310" width="279.6" height="30" rx="3"></rect>
+		<text id="this.onNoteStatus = onNoteStatus" style="transform: matrix(1,0,0,1,139,330)" >
+			<tspan x="0" y="0" class="t1">this.onNoteStatus = onNoteStatus
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="358.5" width="279.6" height="30" rx="3"></rect>
+		<text id="this.onNoteDelete = onNoteDelete" style="transform: matrix(1,0,0,1,139,378.5)" >
+			<tspan x="0" y="0" class="t1">this.onNoteDelete = onNoteDelete
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="407" width="435.6" height="30" rx="3"></rect>
+		<text id="this.root.innerHTML = `&lt;div clas" style="transform: matrix(1,0,0,1,139,427)" >
+			<tspan x="0" y="0" class="t1">this.root.innerHTML = `&lt;div class=&quot;notes_side...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="455.5" width="443.4" height="30" rx="3"></rect>
+		<text id="const btnAddNote = this.root.querySelector('.notes..." style="transform: matrix(1,0,0,1,139,475.5)" >
+			<tspan x="0" y="0" class="t1">const btnAddNote = this.root.querySelector('.notes...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="504" width="443.4" height="30" rx="3"></rect>
+		<text id="const inpTitle = this.root.querySelector('.notes_t..." style="transform: matrix(1,0,0,1,139,524)" >
+			<tspan x="0" y="0" class="t1">const inpTitle = this.root.querySelector('.notes_t...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="552.5" width="443.4" height="30" rx="3"></rect>
+		<text id="const inpBody = this.root.querySelector('.notes_bo..." style="transform: matrix(1,0,0,1,139,572.5)" >
+			<tspan x="0" y="0" class="t1">const inpBody = this.root.querySelector('.notes_bo...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="601" width="443.4" height="30" rx="3"></rect>
+		<text id="const btnNoteCompleted = this.root.querySelector('..." style="transform: matrix(1,0,0,1,139,621)" >
+			<tspan x="0" y="0" class="t1">const btnNoteCompleted = this.root.querySelector('...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="649.5" width="443.4" height="30" rx="3"></rect>
+		<text id="const btnNoteArchived = this.root.querySelector('[..." style="transform: matrix(1,0,0,1,139,669.5)" >
+			<tspan x="0" y="0" class="t1">const btnNoteArchived = this.root.querySelector('[...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="698" width="443.4" height="30" rx="3"></rect>
+		<text id="const btnNoteDeleted = this.root.querySelector('[n..." style="transform: matrix(1,0,0,1,139,718)" >
+			<tspan x="0" y="0" class="t1">const btnNoteDeleted = this.root.querySelector('[n...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="746.5" width="349.8" height="30" rx="2"></rect>
+		<text id="btnAddNote.addEventListener('click', *())" style="transform: matrix(1,0,0,1,139,766.5)" >
+			<tspan x="0" y="0" class="t1">btnAddNote.addEventListener('click', *())
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m161 795h89v30h-89z"/>
+		<path id="Layer" class="s2" d="m171 795v30"/>
+		<path id="Layer" class="s2" d="m240 795v30"/>
+		<text id="() =&gt;" style="transform: matrix(1,0,0,1,186,815)" >
+			<tspan x="0" y="0" class="t1">() =&gt;
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="198" y="843.5" width="154.8" height="30" rx="2"></rect>
+		<text id="this.onNoteAdd()" style="transform: matrix(1,0,0,1,213,863.5)" >
+			<tspan x="0" y="0" class="t1">this.onNoteAdd()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="892" width="396.6" height="30" rx="2"></rect>
+		<text id="btnNoteCompleted.addEventListener('click', *())" style="transform: matrix(1,0,0,1,139,912)" >
+			<tspan x="0" y="0" class="t1">btnNoteCompleted.addEventListener('click', *())
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m161 940.5h89v30h-89z"/>
+		<path id="Layer" class="s2" d="m171 940.5v30"/>
+		<path id="Layer" class="s2" d="m240 940.5v30"/>
+		<text id="() =&gt;" style="transform: matrix(1,0,0,1,186,960.5)" >
+			<tspan x="0" y="0" class="t1">() =&gt;
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="198" y="989" width="264" height="30" rx="2"></rect>
+		<text id="this.onNoteStatus('completed')" style="transform: matrix(1,0,0,1,213,1009)" >
+			<tspan x="0" y="0" class="t1">this.onNoteStatus('completed')
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="1037.5" width="388.8" height="30" rx="2"></rect>
+		<text id="btnNoteArchived.addEventListener('click', *())" style="transform: matrix(1,0,0,1,139,1057.5)" >
+			<tspan x="0" y="0" class="t1">btnNoteArchived.addEventListener('click', *())
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m161 1086h89v30h-89z"/>
+		<path id="Layer" class="s2" d="m171 1086v30"/>
+		<path id="Layer" class="s2" d="m240 1086v30"/>
+		<text id="() =&gt;" style="transform: matrix(1,0,0,1,186,1106)" >
+			<tspan x="0" y="0" class="t1">() =&gt;
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="198" y="1134.5" width="256.2" height="30" rx="2"></rect>
+		<text id="this.onNoteStatus('archived')" style="transform: matrix(1,0,0,1,213,1154.5)" >
+			<tspan x="0" y="0" class="t1">this.onNoteStatus('archived')
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="1183" width="381" height="30" rx="2"></rect>
+		<text id="btnNoteDeleted.addEventListener('click', *())" style="transform: matrix(1,0,0,1,139,1203)" >
+			<tspan x="0" y="0" class="t1">btnNoteDeleted.addEventListener('click', *())
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m161 1231.5h89v30h-89z"/>
+		<path id="Layer" class="s2" d="m171 1231.5v30"/>
+		<path id="Layer" class="s2" d="m240 1231.5v30"/>
+		<text id="() =&gt;" style="transform: matrix(1,0,0,1,186,1251.5)" >
+			<tspan x="0" y="0" class="t1">() =&gt;
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="198" y="1280" width="178.2" height="30" rx="2"></rect>
+		<text id="this.onNoteDelete()" style="transform: matrix(1,0,0,1,213,1300)" >
+			<tspan x="0" y="0" class="t1">this.onNoteDelete()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="1328.5" width="279.6" height="30" rx="2"></rect>
+		<text id="[inpTitle, inpBody].forEach(*())" style="transform: matrix(1,0,0,1,139,1348.5)" >
+			<tspan x="0" y="0" class="t1">[inpTitle, inpBody].forEach(*())
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m161 1377h167v30h-167z"/>
+		<path id="Layer" class="s2" d="m171 1377v30"/>
+		<path id="Layer" class="s2" d="m318 1377v30"/>
+		<text id="(inputField) =&gt;" style="transform: matrix(1,0,0,1,186,1397)" >
+			<tspan x="0" y="0" class="t1">(inputField) =&gt;
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="198" y="1425.5" width="342" height="30" rx="2"></rect>
+		<text id="inputField.addEventListener('blur', *())" style="transform: matrix(1,0,0,1,213,1445.5)" >
+			<tspan x="0" y="0" class="t1">inputField.addEventListener('blur', *())
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m235 1474h89v30h-89z"/>
+		<path id="Layer" class="s2" d="m245 1474v30"/>
+		<path id="Layer" class="s2" d="m314 1474v30"/>
+		<text id="() =&gt;" style="transform: matrix(1,0,0,1,260,1494)" >
+			<tspan x="0" y="0" class="t1">() =&gt;
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="272" y="1522.5" width="349.8" height="30" rx="3"></rect>
+		<text id="const updatedTile = inpTitle.value.trim()" style="transform: matrix(1,0,0,1,287,1542.5)" >
+			<tspan x="0" y="0" class="t1">const updatedTile = inpTitle.value.trim()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="272" y="1571" width="342" height="30" rx="3"></rect>
+		<text id="const updatedBody = inpBody.value.trim()" style="transform: matrix(1,0,0,1,287,1591)" >
+			<tspan x="0" y="0" class="t1">const updatedBody = inpBody.value.trim()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="272" y="1619.5" width="349.8" height="30" rx="2"></rect>
+		<text id="this.onNoteEdit(updatedTile, updatedBody)" style="transform: matrix(1,0,0,1,287,1639.5)" >
+			<tspan x="0" y="0" class="t1">this.onNoteEdit(updatedTile, updatedBody)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="124" y="1668" width="334.2" height="30" rx="2"></rect>
+		<text id="this.updateNotePreviewVisibility(false)" style="transform: matrix(1,0,0,1,139,1688)" >
+			<tspan x="0" y="0" class="t1">this.updateNotePreviewVisibility(false)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m79 82.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s6" d="m79 79.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 131h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s6" d="m116 128l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 179.5h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s6" d="m116 176.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 228h-6.5q-4 0-4-4v-126.5"/>
+		<path id="Layer" class="s6" d="m116 225l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 276.5h-6.5q-4 0-4-4v-175"/>
+		<path id="Layer" class="s6" d="m116 273.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 325h-6.5q-4 0-4-4v-223.5"/>
+		<path id="Layer" class="s6" d="m116 322l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 373.5h-6.5q-4 0-4-4v-272"/>
+		<path id="Layer" class="s6" d="m116 370.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 422h-6.5q-4 0-4-4v-320.5"/>
+		<path id="Layer" class="s6" d="m116 419l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 470.5h-6.5q-4 0-4-4v-369"/>
+		<path id="Layer" class="s6" d="m116 467.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 519h-6.5q-4 0-4-4v-417.5"/>
+		<path id="Layer" class="s6" d="m116 516l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 567.5h-6.5q-4 0-4-4v-466"/>
+		<path id="Layer" class="s6" d="m116 564.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 616h-6.5q-4 0-4-4v-514.5"/>
+		<path id="Layer" class="s6" d="m116 613l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 664.5h-6.5q-4 0-4-4v-563"/>
+		<path id="Layer" class="s6" d="m116 661.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 713h-6.5q-4 0-4-4v-611.5"/>
+		<path id="Layer" class="s6" d="m116 710l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 761.5h-6.5q-4 0-4-4v-660"/>
+		<path id="Layer" class="s6" d="m116 758.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m161 810h-14.5q-4 0-4-4v-29.5"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m190 858.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s6" d="m190 855.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 907h-6.5q-4 0-4-4v-805.5"/>
+		<path id="Layer" class="s6" d="m116 904l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m161 955.5h-14.5q-4 0-4-4v-29.5"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m190 1004h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s6" d="m190 1001l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 1052.5h-6.5q-4 0-4-4v-951"/>
+		<path id="Layer" class="s6" d="m116 1049.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m161 1101h-14.5q-4 0-4-4v-29.5"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m190 1149.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s6" d="m190 1146.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 1198h-6.5q-4 0-4-4v-1096.5"/>
+		<path id="Layer" class="s6" d="m116 1195l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m161 1246.5h-14.5q-4 0-4-4v-29.5"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m190 1295h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s6" d="m190 1292l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 1343.5h-6.5q-4 0-4-4v-1242"/>
+		<path id="Layer" class="s6" d="m116 1340.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m161 1392h-14.5q-4 0-4-4v-29.5"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m190 1440.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s6" d="m190 1437.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m235 1489h-14.5q-4 0-4-4v-29.5"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m264 1537.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s6" d="m264 1534.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m264 1586h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s6" d="m264 1583l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m264 1634.5h-6.5q-4 0-4-4v-126.5"/>
+		<path id="Layer" class="s6" d="m264 1631.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s5" d="m116 1683h-6.5q-4 0-4-4v-1581.5"/>
+		<path id="Layer" class="s6" d="m116 1680l8 3-8 3z"/>
+	</g>
+</svg>

@@ -1,0 +1,505 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="647" height="1784" shape-rendering="optimizeSpeed">
+    <g>
+        <rect x="50" y="80" width="174.8" height="30" style="fill:#80cbc4; stroke:#444; stroke-width:1"></rect>
+        <line x1="60" y1="80" x2="60" y2="110" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+        <line x1="214.8" y1="80" x2="214.8" y2="110" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+        <title>class NotesView </title>
+        <text x="75" y="100" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="75" y="100">class NotesView </tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="87" y="128.5" width="440" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="97" y1="128.5" x2="97" y2="158.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="517" y1="128.5" x2="517" y2="158.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>constructor(root, {
+  onNoteSelect,
+  onNoteAdd,
+  onNoteEdit,
+  onNoteStatus,
+  onNoteDelete
+} = {})</title>
+        <text x="112" y="148.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="112" y="148.5">constructor(root, {
+  onNoteSelect,
+  onNoteAdd,
+ ...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="177" width="154.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>this.root = root</title>
+        <text x="139" y="197" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="197">this.root = root</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="225.5" width="279.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteSelect = onNoteSelect</title>
+        <text x="139" y="245.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="245.5">this.onNoteSelect = onNoteSelect</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="274" width="232.79999999999998" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteAdd = onNoteAdd</title>
+        <text x="139" y="294" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="294">this.onNoteAdd = onNoteAdd</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="322.5" width="248.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteEdit = onNoteEdit</title>
+        <text x="139" y="342.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="342.5">this.onNoteEdit = onNoteEdit</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="371" width="279.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteStatus = onNoteStatus</title>
+        <text x="139" y="391" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="391">this.onNoteStatus = onNoteStatus</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="419.5" width="279.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteDelete = onNoteDelete</title>
+        <text x="139" y="439.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="439.5">this.onNoteDelete = onNoteDelete</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="468" width="435.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>this.root.innerHTML = `
+    &lt;div class="notes_sidebar"&gt;
+      &lt;button class="notes_add" type="button"&gt;新增筆記&lt;/button&gt;
+      &lt;div class="notes_list"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="notes_preview"&gt;
+      &lt;input type="text" class="notes_title" placeholder="Enter the title" /&gt;
+      &lt;span class="notes_status-bar"&gt;
+        &lt;a href="#" note_completed&gt;&lt;i class="bi bi-check-square"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href="#" note_archived&gt;&lt;i class="bi bi-inbox"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href="#" note_deleted&gt;&lt;i class="bi bi-trash"&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;/span&gt;
+      &lt;textarea class="notes_body" placeholder="Enter the note"&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+    `</title>
+        <text x="139" y="488" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="488">this.root.innerHTML = `
+    &lt;div class="notes_side...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="516.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const btnAddNote = this.root.querySelector('.notes_add')</title>
+        <text x="139" y="536.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="536.5">const btnAddNote = this.root.querySelector('.notes...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="565" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const inpTitle = this.root.querySelector('.notes_title')</title>
+        <text x="139" y="585" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="585">const inpTitle = this.root.querySelector('.notes_t...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="613.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const inpBody = this.root.querySelector('.notes_body')</title>
+        <text x="139" y="633.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="633.5">const inpBody = this.root.querySelector('.notes_bo...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="662" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const btnNoteCompleted = this.root.querySelector('[note_completed]')</title>
+        <text x="139" y="682" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="682">const btnNoteCompleted = this.root.querySelector('...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="710.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const btnNoteArchived = this.root.querySelector('[note_archived]')</title>
+        <text x="139" y="730.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="730.5">const btnNoteArchived = this.root.querySelector('[...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="759" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const btnNoteDeleted = this.root.querySelector('[note_deleted]')</title>
+        <text x="139" y="779" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="779">const btnNoteDeleted = this.root.querySelector('[n...</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="807.5" width="349.8" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>btnAddNote.addEventListener('click', *())</title>
+        <text x="139" y="827.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="827.5">btnAddNote.addEventListener('click', *())</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="161" y="856" width="89" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="171" y1="856" x2="171" y2="886" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="240" y1="856" x2="240" y2="886" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>() =&gt;</title>
+        <text x="186" y="876" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="186" y="876">() =&gt;</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="198" y="904.5" width="154.8" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteAdd()</title>
+        <text x="213" y="924.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="213" y="924.5">this.onNoteAdd()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="953" width="396.59999999999997" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>btnNoteCompleted.addEventListener('click', *())</title>
+        <text x="139" y="973" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="973">btnNoteCompleted.addEventListener('click', *())</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="161" y="1001.5" width="89" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="171" y1="1001.5" x2="171" y2="1031.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="240" y1="1001.5" x2="240" y2="1031.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>() =&gt;</title>
+        <text x="186" y="1021.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="186" y="1021.5">() =&gt;</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="198" y="1050" width="264" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteStatus('completed')</title>
+        <text x="213" y="1070" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="213" y="1070">this.onNoteStatus('completed')</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="1098.5" width="388.8" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>btnNoteArchived.addEventListener('click', *())</title>
+        <text x="139" y="1118.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="1118.5">btnNoteArchived.addEventListener('click', *())</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="161" y="1147" width="89" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="171" y1="1147" x2="171" y2="1177" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="240" y1="1147" x2="240" y2="1177" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>() =&gt;</title>
+        <text x="186" y="1167" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="186" y="1167">() =&gt;</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="198" y="1195.5" width="256.2" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteStatus('archived')</title>
+        <text x="213" y="1215.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="213" y="1215.5">this.onNoteStatus('archived')</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="1244" width="381" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>btnNoteDeleted.addEventListener('click', *())</title>
+        <text x="139" y="1264" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="1264">btnNoteDeleted.addEventListener('click', *())</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="161" y="1292.5" width="89" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="171" y1="1292.5" x2="171" y2="1322.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="240" y1="1292.5" x2="240" y2="1322.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>() =&gt;</title>
+        <text x="186" y="1312.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="186" y="1312.5">() =&gt;</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="198" y="1341" width="178.2" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteDelete()</title>
+        <text x="213" y="1361" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="213" y="1361">this.onNoteDelete()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="1389.5" width="279.6" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>[inpTitle, inpBody].forEach(*())</title>
+        <text x="139" y="1409.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="1409.5">[inpTitle, inpBody].forEach(*())</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="161" y="1438" width="167" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="171" y1="1438" x2="171" y2="1468" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="318" y1="1438" x2="318" y2="1468" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>(inputField) =&gt;</title>
+        <text x="186" y="1458" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="186" y="1458">(inputField) =&gt;</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="198" y="1486.5" width="342" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>inputField.addEventListener('blur', *())</title>
+        <text x="213" y="1506.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="213" y="1506.5">inputField.addEventListener('blur', *())</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="235" y="1535" width="89" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+        <line x1="245" y1="1535" x2="245" y2="1565" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <line x1="314" y1="1535" x2="314" y2="1565" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+        <title>() =&gt;</title>
+        <text x="260" y="1555" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="260" y="1555">() =&gt;</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="272" y="1583.5" width="349.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const updatedTile = inpTitle.value.trim()</title>
+        <text x="287" y="1603.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="287" y="1603.5">const updatedTile = inpTitle.value.trim()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="272" y="1632" width="342" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+        <title>const updatedBody = inpBody.value.trim()</title>
+        <text x="287" y="1652" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="287" y="1652">const updatedBody = inpBody.value.trim()</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="272" y="1680.5" width="349.8" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>this.onNoteEdit(updatedTile, updatedBody)</title>
+        <text x="287" y="1700.5" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="287" y="1700.5">this.onNoteEdit(updatedTile, updatedBody)</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="124" y="1729" width="334.2" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+        <title>this.updateNotePreviewVisibility(false)</title>
+        <text x="139" y="1749" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="139" y="1749">this.updateNotePreviewVisibility(false)</tspan>
+        </text>
+    </g>
+    <g>
+        <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+        <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+        <title>Program: source module</title>
+        <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+            <tspan x="55" y="30">Program: source module</tspan>
+        </text>
+    </g>
+    <g>
+        <path d="M25, 40 L25 91 Q25 95
+                29 95
+                L42 95 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M42, 92 L50, 95 L42, 98 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M68.5, 110 L68.5 139.5 Q68.5 143.5
+                72.5 143.5
+                L79 143.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M79, 140.5 L87, 143.5 L79, 146.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 188 Q105.5 192
+                109.5 192
+                L116 192 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 189 L124, 192 L116, 195 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 236.5 Q105.5 240.5
+                109.5 240.5
+                L116 240.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 237.5 L124, 240.5 L116, 243.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 285 Q105.5 289
+                109.5 289
+                L116 289 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 286 L124, 289 L116, 292 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 333.5 Q105.5 337.5
+                109.5 337.5
+                L116 337.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 334.5 L124, 337.5 L116, 340.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 382 Q105.5 386
+                109.5 386
+                L116 386 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 383 L124, 386 L116, 389 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 430.5 Q105.5 434.5
+                109.5 434.5
+                L116 434.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 431.5 L124, 434.5 L116, 437.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 479 Q105.5 483
+                109.5 483
+                L116 483 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 480 L124, 483 L116, 486 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 527.5 Q105.5 531.5
+                109.5 531.5
+                L116 531.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 528.5 L124, 531.5 L116, 534.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 576 Q105.5 580
+                109.5 580
+                L116 580 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 577 L124, 580 L116, 583 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 624.5 Q105.5 628.5
+                109.5 628.5
+                L116 628.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 625.5 L124, 628.5 L116, 631.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 673 Q105.5 677
+                109.5 677
+                L116 677 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 674 L124, 677 L116, 680 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 721.5 Q105.5 725.5
+                109.5 725.5
+                L116 725.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 722.5 L124, 725.5 L116, 728.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 770 Q105.5 774
+                109.5 774
+                L116 774 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 771 L124, 774 L116, 777 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 818.5 Q105.5 822.5
+                109.5 822.5
+                L116 822.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 819.5 L124, 822.5 L116, 825.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M142.5, 837.5 L142.5 867 Q142.5 871
+                146.5 871
+                L161 871 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+    </g>
+    <g>
+        <path d="M179.5, 886 L179.5 915.5 Q179.5 919.5
+                183.5 919.5
+                L190 919.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M190, 916.5 L198, 919.5 L190, 922.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 964 Q105.5 968
+                109.5 968
+                L116 968 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 965 L124, 968 L116, 971 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M142.5, 983 L142.5 1012.5 Q142.5 1016.5
+                146.5 1016.5
+                L161 1016.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+    </g>
+    <g>
+        <path d="M179.5, 1031.5 L179.5 1061 Q179.5 1065
+                183.5 1065
+                L190 1065 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M190, 1062 L198, 1065 L190, 1068 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 1109.5 Q105.5 1113.5
+                109.5 1113.5
+                L116 1113.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 1110.5 L124, 1113.5 L116, 1116.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M142.5, 1128.5 L142.5 1158 Q142.5 1162
+                146.5 1162
+                L161 1162 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+    </g>
+    <g>
+        <path d="M179.5, 1177 L179.5 1206.5 Q179.5 1210.5
+                183.5 1210.5
+                L190 1210.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M190, 1207.5 L198, 1210.5 L190, 1213.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 1255 Q105.5 1259
+                109.5 1259
+                L116 1259 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 1256 L124, 1259 L116, 1262 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M142.5, 1274 L142.5 1303.5 Q142.5 1307.5
+                146.5 1307.5
+                L161 1307.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+    </g>
+    <g>
+        <path d="M179.5, 1322.5 L179.5 1352 Q179.5 1356
+                183.5 1356
+                L190 1356 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M190, 1353 L198, 1356 L190, 1359 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 1400.5 Q105.5 1404.5
+                109.5 1404.5
+                L116 1404.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 1401.5 L124, 1404.5 L116, 1407.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M142.5, 1419.5 L142.5 1449 Q142.5 1453
+                146.5 1453
+                L161 1453 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+    </g>
+    <g>
+        <path d="M179.5, 1468 L179.5 1497.5 Q179.5 1501.5
+                183.5 1501.5
+                L190 1501.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M190, 1498.5 L198, 1501.5 L190, 1504.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M216.5, 1516.5 L216.5 1546 Q216.5 1550
+                220.5 1550
+                L235 1550 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+    </g>
+    <g>
+        <path d="M253.5, 1565 L253.5 1594.5 Q253.5 1598.5
+                257.5 1598.5
+                L264 1598.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M264, 1595.5 L272, 1598.5 L264, 1601.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M253.5, 1565 L253.5 1643 Q253.5 1647
+                257.5 1647
+                L264 1647 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M264, 1644 L272, 1647 L264, 1650 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M253.5, 1565 L253.5 1691.5 Q253.5 1695.5
+                257.5 1695.5
+                L264 1695.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M264, 1692.5 L272, 1695.5 L264, 1698.5 Z" fill="#333"></path>
+    </g>
+    <g>
+        <path d="M105.5, 158.5 L105.5 1740 Q105.5 1744
+                109.5 1744
+                L116 1744 " style="fill:none; stroke:#444; stroke-width:1"></path>
+        <path d="M116, 1741 L124, 1744 L116, 1747 Z" fill="#333"></path>
+    </g>
+</svg>

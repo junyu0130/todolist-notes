@@ -1,0 +1,560 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1053 2046" width="1053" height="2046">
+	<title>notesAPI_function-svg</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #80cbc4;stroke: #444444 } 
+		.t1 { font-size: 13px;fill: #222222;font-family: "monospace" } 
+		.s2 { fill: #a5d6a7;stroke: #444444 } 
+		.s3 { fill: #90caf9;stroke: #444444 } 
+		.s4 { fill: #ce93d8;stroke: #444444 } 
+		.s5 { fill: #c5e1a5;stroke: #444444 } 
+		.s6 { fill: none;stroke: #444444 } 
+		.s7 { fill: #333333 } 
+	</style>
+	<rect width="1053" height="2046" id="顏色填充 1" style="fill: #f2f2f2"/>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m50 12h167v30h-167z"/>
+		<path id="Layer" class="s0" d="m60 12v30"/>
+		<path id="Layer" class="s0" d="m207 12v30"/>
+		<text id="class NotesAPI " style="transform: matrix(1,0,0,1,75,32)" >
+			<tspan x="0" y="0" class="t1">class NotesAPI 
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m87 60.5h151.4v30h-151.4z"/>
+		<path id="Layer" class="s2" d="m97 60.5v30"/>
+		<path id="Layer" class="s2" d="m228.4 60.5v30"/>
+		<text id="getAllNotes()" style="transform: matrix(1,0,0,1,112,80.5)" >
+			<tspan x="0" y="0" class="t1">getAllNotes()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="109" width="443.4" height="30" rx="3"></rect>
+		<text id="const notes = JSON.parse(localStorage.getItem(&quot;not..." style="transform: matrix(1,0,0,1,139,129)" >
+			<tspan x="0" y="0" class="t1">const notes = JSON.parse(localStorage.getItem(&quot;not...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="157.5" width="435.6" height="30" rx="3"></rect>
+		<path id="Layer" class="s2" d="m559.6 167.5h5"/>
+		<path id="Layer" class="s2" d="m559.6 177.5h5"/>
+		<path id="Layer" class="s2" d="m564.6 161.5l16 11-16 11z"/>
+		<text id="return notes.sort((a, b) =&gt; {  r" style="transform: matrix(1,0,0,1,139,177.5)" >
+			<tspan x="0" y="0" class="t1">return notes.sort((a, b) =&gt; {  return new Date(a....
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m161 206h120.2v30h-120.2z"/>
+		<path id="Layer" class="s2" d="m171 206v30"/>
+		<path id="Layer" class="s2" d="m271.2 206v30"/>
+		<text id="(a, b) =&gt;" style="transform: matrix(1,0,0,1,186,226)" >
+			<tspan x="0" y="0" class="t1">(a, b) =&gt;
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="198" y="254.5" width="76.8" height="30" rx="3"></rect>
+		<path id="Layer" class="s2" d="m274.8 264.5h5"/>
+		<path id="Layer" class="s2" d="m274.8 274.5h5"/>
+		<path id="Layer" class="s2" d="m279.8 258.5l16 11-16 11z"/>
+		<text id="return" style="transform: matrix(1,0,0,1,213,274.5)" >
+			<tspan x="0" y="0" class="t1">return
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="265" y="318" width="395.4" height="30" rx="3"></rect>
+		<path id="Layer" class="s4" d="m235 333l30-30 30 30-30 30z"/>
+		<text id="(new Date(a.updated) &gt; new Date(b.updated))" style="transform: matrix(1,0,0,1,310,338)" >
+			<tspan x="0" y="0" class="t1">(new Date(a.updated) &gt; new Date(b.updated))
+</tspan>
+		</text>
+		<text id="?" style="transform: matrix(1,0,0,1,261.1,338)" >
+			<tspan x="0" y="0" class="t1">?
+</tspan>
+		</text>
+		<text id="+" style="transform: matrix(1,0,0,1,272.8,364.95)" >
+			<tspan x="0" y="0" class="t1">+
+</tspan>
+		</text>
+		<text id="-" style="transform: matrix(1,0,0,1,664.3,331.05)" >
+			<tspan x="0" y="0" class="t1">-
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="285" y="373" width="43.8" height="30" rx="3"></rect>
+		<text id="-1" style="transform: matrix(1,0,0,1,300,393)" >
+			<tspan x="0" y="0" class="t1">-1
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="720.4" y="373" width="37.8" height="30" rx="3"></rect>
+		<text id="1" style="transform: matrix(1,0,0,1,735.4,393)" >
+			<tspan x="0" y="0" class="t1">1
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m87 486.5h206v30h-206z"/>
+		<path id="Layer" class="s2" d="m97 486.5v30"/>
+		<path id="Layer" class="s2" d="m283 486.5v30"/>
+		<text id="saveNote(noteToSave)" style="transform: matrix(1,0,0,1,112,506.5)" >
+			<tspan x="0" y="0" class="t1">saveNote(noteToSave)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="535" width="310.8" height="30" rx="3"></rect>
+		<text id="const notes = NotesAPI.getAllNotes()" style="transform: matrix(1,0,0,1,139,555)" >
+			<tspan x="0" y="0" class="t1">const notes = NotesAPI.getAllNotes()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="124" y="583.5" width="279.6" height="30" rx="3"></rect>
+		<text id="const existing = notes.find(*())" style="transform: matrix(1,0,0,1,139,603.5)" >
+			<tspan x="0" y="0" class="t1">const existing = notes.find(*())
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m161 632h120.2v30h-120.2z"/>
+		<path id="Layer" class="s2" d="m171 632v30"/>
+		<path id="Layer" class="s2" d="m271.2 632v30"/>
+		<text id="(note) =&gt;" style="transform: matrix(1,0,0,1,186,652)" >
+			<tspan x="0" y="0" class="t1">(note) =&gt;
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="198" y="680.5" width="271.8" height="30" rx="3"></rect>
+		<path id="Layer" class="s2" d="m469.8 690.5h5"/>
+		<path id="Layer" class="s2" d="m469.8 700.5h5"/>
+		<path id="Layer" class="s2" d="m474.8 684.5l16 11-16 11z"/>
+		<text id="return note.id == noteToSave.id" style="transform: matrix(1,0,0,1,213,700.5)" >
+			<tspan x="0" y="0" class="t1">return note.id == noteToSave.id
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="154" y="744" width="138" height="30" rx="3"></rect>
+		<path id="Layer" class="s4" d="m124 759l30-30 30 30-30 30z"/>
+		<text id="(existing)" style="transform: matrix(1,0,0,1,199,764)" >
+			<tspan x="0" y="0" class="t1">(existing)
+</tspan>
+		</text>
+		<text id="if" style="transform: matrix(1,0,0,1,146.2,764)" >
+			<tspan x="0" y="0" class="t1">if
+</tspan>
+		</text>
+		<text id="+" style="transform: matrix(1,0,0,1,161.8,790.95)" >
+			<tspan x="0" y="0" class="t1">+
+</tspan>
+		</text>
+		<text id="-" style="transform: matrix(1,0,0,1,295.9,757.05)" >
+			<tspan x="0" y="0" class="t1">-
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="174" y="799" width="287.4" height="30" rx="3"></rect>
+		<text id="existing.title = noteToSave.title" style="transform: matrix(1,0,0,1,189,819)" >
+			<tspan x="0" y="0" class="t1">existing.title = noteToSave.title
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="174" y="847.5" width="271.8" height="30" rx="3"></rect>
+		<text id="existing.body = noteToSave.body" style="transform: matrix(1,0,0,1,189,867.5)" >
+			<tspan x="0" y="0" class="t1">existing.body = noteToSave.body
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="174" y="896" width="381" height="30" rx="3"></rect>
+		<text id="existing.isCompleted = noteToSave.isCompleted" style="transform: matrix(1,0,0,1,189,916)" >
+			<tspan x="0" y="0" class="t1">existing.isCompleted = noteToSave.isCompleted
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="174" y="944.5" width="365.4" height="30" rx="3"></rect>
+		<text id="existing.isArchived = noteToSave.isArchived" style="transform: matrix(1,0,0,1,189,964.5)" >
+			<tspan x="0" y="0" class="t1">existing.isArchived = noteToSave.isArchived
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="174" y="993" width="365.4" height="30" rx="3"></rect>
+		<text id="existing.updated = new Date().toISOString()" style="transform: matrix(1,0,0,1,189,1013)" >
+			<tspan x="0" y="0" class="t1">existing.updated = new Date().toISOString()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="211" y="1041.5" width="108" height="30" rx="3"></rect>
+		<text id="new Date()" style="transform: matrix(1,0,0,1,226,1061.5)" >
+			<tspan x="0" y="0" class="t1">new Date()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="615" y="799" width="412.2" height="30" rx="3"></rect>
+		<text id="noteToSave.id = Math.floor(Math.random() * 10000)" style="transform: matrix(1,0,0,1,630,819)" >
+			<tspan x="0" y="0" class="t1">noteToSave.id = Math.floor(Math.random() * 10000)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="615" y="847.5" width="381" height="30" rx="3"></rect>
+		<text id="noteToSave.updated = new Date().toISOString()" style="transform: matrix(1,0,0,1,630,867.5)" >
+			<tspan x="0" y="0" class="t1">noteToSave.updated = new Date().toISOString()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="652" y="896" width="108" height="30" rx="3"></rect>
+		<text id="new Date()" style="transform: matrix(1,0,0,1,667,916)" >
+			<tspan x="0" y="0" class="t1">new Date()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s5" x="615" y="944.5" width="201.6" height="30" rx="2"></rect>
+		<text id="notes.push(noteToSave)" style="transform: matrix(1,0,0,1,630,964.5)" >
+			<tspan x="0" y="0" class="t1">notes.push(noteToSave)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s5" x="124" y="1091.5" width="443.4" height="30" rx="2"></rect>
+		<text id="localStorage.setItem('notesApp-notes', JSON.string..." style="transform: matrix(1,0,0,1,139,1111.5)" >
+			<tspan x="0" y="0" class="t1">localStorage.setItem('notesApp-notes', JSON.string...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m87 1155h213.8v30h-213.8z"/>
+		<path id="Layer" class="s2" d="m97 1155v30"/>
+		<path id="Layer" class="s2" d="m290.8 1155v30"/>
+		<text id="deleteNote(noteToDel)" style="transform: matrix(1,0,0,1,112,1175)" >
+			<tspan x="0" y="0" class="t1">deleteNote(noteToDel)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="154" y="1218.5" width="559.2" height="30" rx="3"></rect>
+		<path id="Layer" class="s4" d="m124 1233.5l30-30 30 30-30 30z"/>
+		<text id="(confirm(&quot;確定要刪除這個項目嗎?\n將會從本機儲存空間永久刪除。&quot;))" style="transform: matrix(1,0,0,1,199,1238.5)" >
+			<tspan x="0" y="0" class="t1">(confirm(&quot;確定要刪除這個項目嗎?\n將會從本機儲存空間永久刪除。&quot;))
+</tspan>
+		</text>
+		<text id="if" style="transform: matrix(1,0,0,1,146.2,1238.5)" >
+			<tspan x="0" y="0" class="t1">if
+</tspan>
+		</text>
+		<text id="+" style="transform: matrix(1,0,0,1,161.8,1265.45)" >
+			<tspan x="0" y="0" class="t1">+
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="174" y="1273.5" width="310.8" height="30" rx="3"></rect>
+		<text id="const notes = NotesAPI.getAllNotes()" style="transform: matrix(1,0,0,1,189,1293.5)" >
+			<tspan x="0" y="0" class="t1">const notes = NotesAPI.getAllNotes()
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="174" y="1322" width="318.6" height="30" rx="3"></rect>
+		<text id="const delIndex = notes.findIndex(*())" style="transform: matrix(1,0,0,1,189,1342)" >
+			<tspan x="0" y="0" class="t1">const delIndex = notes.findIndex(*())
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m211 1370.5h120.2v30h-120.2z"/>
+		<path id="Layer" class="s2" d="m221 1370.5v30"/>
+		<path id="Layer" class="s2" d="m321.2 1370.5v30"/>
+		<text id="(item) =&gt;" style="transform: matrix(1,0,0,1,236,1390.5)" >
+			<tspan x="0" y="0" class="t1">(item) =&gt;
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="248" y="1419" width="264" height="30" rx="3"></rect>
+		<path id="Layer" class="s2" d="m512 1429h5"/>
+		<path id="Layer" class="s2" d="m512 1439h5"/>
+		<path id="Layer" class="s2" d="m517 1423l16 11-16 11z"/>
+		<text id="return item.id == noteToDel.id" style="transform: matrix(1,0,0,1,263,1439)" >
+			<tspan x="0" y="0" class="t1">return item.id == noteToDel.id
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s5" x="174" y="1467.5" width="225" height="30" rx="2"></rect>
+		<text id="notes.splice(delIndex, 1)" style="transform: matrix(1,0,0,1,189,1487.5)" >
+			<tspan x="0" y="0" class="t1">notes.splice(delIndex, 1)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s5" x="174" y="1516" width="443.4" height="30" rx="2"></rect>
+		<text id="localStorage.setItem('notesApp-notes', JSON.string..." style="transform: matrix(1,0,0,1,189,1536)" >
+			<tspan x="0" y="0" class="t1">localStorage.setItem('notesApp-notes', JSON.string...
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m87 1581h260.6v30h-260.6z"/>
+		<path id="Layer" class="s2" d="m97 1581v30"/>
+		<path id="Layer" class="s2" d="m337.6 1581v30"/>
+		<text id="setNoteStatus(note, status)" style="transform: matrix(1,0,0,1,112,1601)" >
+			<tspan x="0" y="0" class="t1">setNoteStatus(note, status)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="154" y="1644.5" width="177" height="30" rx="3"></rect>
+		<path id="Layer" class="s4" d="m124 1659.5l30-30 30 30-30 30z"/>
+		<text id="switch (status)" style="transform: matrix(1,0,0,1,199,1664.5)" >
+			<tspan x="0" y="0" class="t1">switch (status)
+</tspan>
+		</text>
+		<text id="if" style="transform: matrix(1,0,0,1,146.2,1664.5)" >
+			<tspan x="0" y="0" class="t1">if
+</tspan>
+		</text>
+		<text id="+" style="transform: matrix(1,0,0,1,161.8,1691.45)" >
+			<tspan x="0" y="0" class="t1">+
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="174" y="1699.5" width="162.6" height="30" rx="2"></rect>
+		<text id="case &quot;completed&quot;:" style="transform: matrix(1,0,0,1,189,1719.5)" >
+			<tspan x="0" y="0" class="t1">case &quot;completed&quot;:
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="211" y="1748" width="310.8" height="30" rx="3"></rect>
+		<text id="note.isCompleted = !note.isCompleted" style="transform: matrix(1,0,0,1,226,1768)" >
+			<tspan x="0" y="0" class="t1">note.isCompleted = !note.isCompleted
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="211" y="1796.5" width="69" height="30" rx="2"></rect>
+		<path id="Layer" class="s4" d="m280 1806.5h5"/>
+		<path id="Layer" class="s4" d="m280 1816.5h5"/>
+		<path id="Layer" class="s4" d="m285 1797.5l16 14-16 14z"/>
+		<text id="break" style="transform: matrix(1,0,0,1,226,1816.5)" >
+			<tspan x="0" y="0" class="t1">break
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s4" x="174" y="1845" width="154.8" height="30" rx="2"></rect>
+		<text id="case &quot;archived&quot;:" style="transform: matrix(1,0,0,1,189,1865)" >
+			<tspan x="0" y="0" class="t1">case &quot;archived&quot;:
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="211" y="1893.5" width="295.2" height="30" rx="3"></rect>
+		<text id="note.isArchived = !note.isArchived" style="transform: matrix(1,0,0,1,226,1913.5)" >
+			<tspan x="0" y="0" class="t1">note.isArchived = !note.isArchived
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s3" x="211" y="1942" width="69" height="30" rx="2"></rect>
+		<path id="Layer" class="s4" d="m280 1952h5"/>
+		<path id="Layer" class="s4" d="m280 1962h5"/>
+		<path id="Layer" class="s4" d="m285 1943l16 14-16 14z"/>
+		<text id="break" style="transform: matrix(1,0,0,1,226,1962)" >
+			<tspan x="0" y="0" class="t1">break
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<rect id="Layer" class="s5" x="124" y="1990.5" width="209.4" height="30" rx="2"></rect>
+		<text id="NotesAPI.saveNote(note)" style="transform: matrix(1,0,0,1,139,2010.5)" >
+			<tspan x="0" y="0" class="t1">NotesAPI.saveNote(note)
+</tspan>
+		</text>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m79 75.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m79 72.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 124h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m116 121l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 172.5h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s7" d="m116 169.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m153 221h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m153 218l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m190 269.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m190 266.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m227 333h-6.5q-4 0-4-4v-44.5"/>
+		<path id="Layer" class="s7" d="m227 330l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m277 388h-8q-4 0-4-4v-21"/>
+		<path id="Layer" class="s7" d="m277 385l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m660.4 333h36q4 0 4 4v43q0 8 4 8h8"/>
+		<path id="Layer" class="s7" d="m712.4 385l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m79 501.5h-6.5q-4 0-4-4v-455.5"/>
+		<path id="Layer" class="s7" d="m79 498.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 550h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m116 547l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 598.5h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s7" d="m116 595.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m161 647h-14.5q-4 0-4-4v-29.5"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m190 695.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m190 692.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 759h-6.5q-4 0-4-4v-238.5"/>
+		<path id="Layer" class="s7" d="m116 756l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 814h-8q-4 0-4-4v-21"/>
+		<path id="Layer" class="s7" d="m166 811l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 862.5h-8q-4 0-4-4v-69.5"/>
+		<path id="Layer" class="s7" d="m166 859.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 911h-8q-4 0-4-4v-118"/>
+		<path id="Layer" class="s7" d="m166 908l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 959.5h-8q-4 0-4-4v-166.5"/>
+		<path id="Layer" class="s7" d="m166 956.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 1008h-8q-4 0-4-4v-215"/>
+		<path id="Layer" class="s7" d="m166 1005l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m203 1056.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m203 1053.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m292 759h299q4 0 4 4v43q0 8 4 8h8"/>
+		<path id="Layer" class="s7" d="m607 811l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m292 759h299q4 0 4 4v91.5q0 8 4 8h8"/>
+		<path id="Layer" class="s7" d="m607 859.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m644 911h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m644 908l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m292 759h299q4 0 4 4v188.5q0 8 4 8h8"/>
+		<path id="Layer" class="s7" d="m607 956.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 1106.5h-6.5q-4 0-4-4v-586"/>
+		<path id="Layer" class="s7" d="m116 1103.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m79 1170h-6.5q-4 0-4-4v-1124"/>
+		<path id="Layer" class="s7" d="m79 1167l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 1233.5h-6.5q-4 0-4-4v-44.5"/>
+		<path id="Layer" class="s7" d="m116 1230.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 1288.5h-8q-4 0-4-4v-21"/>
+		<path id="Layer" class="s7" d="m166 1285.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 1337h-8q-4 0-4-4v-69.5"/>
+		<path id="Layer" class="s7" d="m166 1334l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m211 1385.5h-14.5q-4 0-4-4v-29.5"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m240 1434h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m240 1431l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 1482.5h-8q-4 0-4-4v-215"/>
+		<path id="Layer" class="s7" d="m166 1479.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 1531h-8q-4 0-4-4v-263.5"/>
+		<path id="Layer" class="s7" d="m166 1528l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m79 1596h-6.5q-4 0-4-4v-1550"/>
+		<path id="Layer" class="s7" d="m79 1593l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 1659.5h-6.5q-4 0-4-4v-44.5"/>
+		<path id="Layer" class="s7" d="m116 1656.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 1714.5h-8q-4 0-4-4v-21"/>
+		<path id="Layer" class="s7" d="m166 1711.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m203 1763h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m203 1760l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m203 1811.5h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s7" d="m203 1808.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m166 1860h-8q-4 0-4-4v-166.5"/>
+		<path id="Layer" class="s7" d="m166 1857l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m203 1908.5h-6.5q-4 0-4-4v-29.5"/>
+		<path id="Layer" class="s7" d="m203 1905.5l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m203 1957h-6.5q-4 0-4-4v-78"/>
+		<path id="Layer" class="s7" d="m203 1954l8 3-8 3z"/>
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s6" d="m116 2005.5h-6.5q-4 0-4-4v-390.5"/>
+		<path id="Layer" class="s7" d="m116 2002.5l8 3-8 3z"/>
+	</g>
+</svg>
