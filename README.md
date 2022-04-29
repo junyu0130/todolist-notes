@@ -28,3 +28,13 @@
     - Status include **Processing** Notes, **Completed** Notes and **Deleted** Notes
     - Brief content contains the title, first line of the content and the updated time of each note
   - The Add/Edit/Delete function You can use click or button to build up these function
+
+## 說明文件(Help file)
+
+- jsDoc
+  - [App.md](code/docs/App.md)
+  - [NotesView.md](code/docs/NotesView.md)
+  - [NotesAPI.md](code/docs/NotesAPI.md)
+- [flowchart](code/docs/flowchart)
+- [PDF file](cbb108015.pdf)
+  - Original file on [Notion](https://buttoned-bag-a1d.notion.site/693834670b7144d7bdbc31848547b41b)
