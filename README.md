@@ -1,5 +1,11 @@
 # Dynamic Webpage Design Midterm Project
 
+> [!NOTE]
+>
+> 以下內容為當時課堂中，教授提供的專案說明，其中包含課程的專屬內容
+>
+> The following is a description of the project provided by the professor in the classroom at that time, which includes course-specific content
+
 ## 注意事項
 
 - Deadline: 2022.04.29 11:59 PM
@@ -36,5 +42,5 @@
   - [NotesView.md](code/docs/NotesView.md)
   - [NotesAPI.md](code/docs/NotesAPI.md)
 - [flowchart](code/docs/flowchart)
-- [PDF file](cbb108015.pdf)
-  - Original file on [Notion](https://buttoned-bag-a1d.notion.site/693834670b7144d7bdbc31848547b41b)
+- [PDF file](cbb108015.pdf) (Chinese)
+  - Original file on [Notion](https://goldfish-around-the-world.notion.site/693834670b7144d7bdbc31848547b41b)
